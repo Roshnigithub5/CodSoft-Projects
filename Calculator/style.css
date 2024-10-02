@@ -1,0 +1,42 @@
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(30deg, lightpink, aliceblue, lightpink);
+}
+
+.main {
+  height: min-content;
+  width: min-content;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.title {
+  font-size: large;
+  font-family: cursive;
+  font-weight: bold;
+  color: darkblue;
+}
+
+input[type="button"] {
+  background-color: black;
+  color: white;
+  width: 80px;
+  height: 80px;
+  border: 2px solid black;
+}
+
+input[type="text"] {
+  background-color: white;
+  width: 240px;
+  height: 80px;
+  border: 2px solid black;
+}
